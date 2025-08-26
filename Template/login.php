@@ -1,4 +1,5 @@
 <div class="form-login">
+    <!-- Custom message for login page Start --> <!-- Custom message for login page End-->
     <h2><?= t('Login') ?></h2>
 
     <?= $this->hook->render('template:auth:login-form:before') ?>
